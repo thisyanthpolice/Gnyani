@@ -1,0 +1,34 @@
+# ============================================
+# RAG Chatbot — Python Dependencies
+# ============================================
+# Install:  pip install -r requirements.txt
+
+# ── Web Framework ──
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-dotenv==1.0.1
+
+# ── Database ──
+sqlalchemy[asyncio]==2.0.35
+asyncpg==0.29.0
+
+# ── AI / Embeddings ──
+openai==1.50.0
+numpy==1.26.4
+
+# ── Vector Store ──
+faiss-cpu==1.8.0
+
+# ── Web Crawling ──
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# ── JS Rendering (optional — install playwright browsers separately) ──
+# After pip install, run:  playwright install chromium
+playwright==1.47.0
+
+# ── Caching (optional) ──
+redis==5.1.0
+
+# ── Utilities ──
+pydantic==2.9.0
